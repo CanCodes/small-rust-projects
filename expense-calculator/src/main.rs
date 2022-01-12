@@ -38,7 +38,7 @@ impl Expense {
 
 
 fn main() {
-    println!("{}", "Welcome to the Awesome Expense Calculater!".bold().magenta());
+    println!("{}", "Welcome to the Awesome Expense Calculator!".bold().magenta());
     let mut salary = String::new();
     println!("{}", "Please enter your monthly income:".bold());
     std::io::stdin().read_line(&mut salary).unwrap();
